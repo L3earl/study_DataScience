@@ -55,8 +55,8 @@ If you feel 1st solution is dirty you can do [this][1]
 1. R code
 ```{r}
 # you can see the R code that I wrote, and outputs
-library(dataset)
-data(airquality)
+library(datasets)
+#data(airquality)
 summary(airquality)
 pairs(airquality)
 ```
