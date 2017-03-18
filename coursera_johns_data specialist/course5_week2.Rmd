@@ -5,7 +5,7 @@ output: github_document
 
 reproducable research
 ======================
-영어로 작성하는 이유는 영어공부를 하기 위함이다
+영어로 작성하는 이유는 성민이가 보고, 어색한 문장을 알려주면 영어공부가 될 꺼 같아서임 :)
 
 ### slide1. coding standard in R
 1. easy to convert
@@ -36,21 +36,23 @@ putting double space at the end of line equal to new line
 
 [link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/)
 If you feel 1st solution is dirty you can do [this][1] , and use double space  
-[1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this"
+[1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this"  
+2번째 방법은 github 형식에서는 작동하지 않는 듯 하다
+[참고](https://guides.github.com/features/mastering-markdown/)
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+### slide3. R markdown
+1. what is Rmd?
+- markdown can convert several format, HTML is one of them
+- Rmd (R markdown) is enbeding R code and markdown
 
-출처는 [위키백과][wiki]입니다.
-[wiki]: http://en.wikipedia.org/wiki/Markdown#Syntax_examples "위키백과 Markdown 항목"
+2. work process of Rmd
+- knitr package convert R code to basic markdown
+- markdown package convert markdown to HMTL
+- use other packages can make other function like slidfy package?
 
-# markdown idea is based on simplify markup languege use
-# 마크다운은 여러 형태로 쉽게 변환 될 수 있는데, HTML은 그 중 하나일 뿐이다
-R markdown 은 마크다운과 같은 형식을 가지지만, R 코드가 그 안에 결합된 것 뿐
 
-knitr package convert R code to basic markdown
-markdown package convert markdown to HMTL
-use slidfy package can make HTML slide like coursera
+
+
 
 
 
