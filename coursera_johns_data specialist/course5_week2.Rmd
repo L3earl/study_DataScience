@@ -35,7 +35,7 @@ putting double space at the end of line equal to new line
 1. as you see. number 1 change to 2,3
 
 [link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/)
-If you feel 1st solution is dirty you can do [this][1]   
+If you feel 1st solution is dirty you can do [this][1], []뒤에는 double space를 써도 /n이 되지 않음  
 [1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this"  
 2번째 방법은 github 형식에서는 작동하지 않는 듯 하다
 [참고](https://guides.github.com/features/mastering-markdown/)
