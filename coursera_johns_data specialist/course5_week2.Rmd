@@ -35,7 +35,7 @@ putting double space at the end of line equal to new line
 1. as you see. number 1 change to 2,3
 
 [link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/)
-If you feel 1st solution is dirty you can do [this][1], and use double space  
+If you feel 1st solution is dirty you can do [this][1] , and use double space  
 [1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this"
 
 http://github.com - automatic!
