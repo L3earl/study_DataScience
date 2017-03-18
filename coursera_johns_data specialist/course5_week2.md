@@ -1,9 +1,6 @@
 Reproducible Research
 ================
 
-reproducable research
-=====================
-
 영어로 작성하는 이유는 성민이가 보고, 어색한 문장을 알려주면 영어공부가 될 꺼 같아서임 :)
 
 ### slide1. coding standard in R
@@ -22,6 +19,9 @@ reproducable research
 
 ### slide2. markdown
 
+title
+=====
+
 putting double space at the end of line equal to new line
 *ltalic*
 **Bold**
@@ -32,7 +32,7 @@ putting double space at the end of line equal to new line
 \#\#\#\#\# h5
 - unordered list, list formats dose not need double space 1. ordered list, actualy it just character 1. but if you inpur number like this, it convert character to ordered list 1. as you see. number 1 change to 2,3
 
-[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do \[this\]\[1\]
+[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do \[this\]\[1\], \[\]뒤에는 double space를 써도 /n이 되지 않음
 \[1\]: <https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown> "this"
 2번째 방법은 github 형식에서는 작동하지 않는 듯 하다 [참고](https://guides.github.com/features/mastering-markdown/)
 
@@ -79,3 +79,6 @@ summary(airquality)
 you can add settings in {r}
 
 ![](course5_week2_files/figure-markdown_github/pressure-1.png)
+
+주의할 점 3가지 github document 형식으로 테스트 해 본 결과, Rmd 코드에서 knit을 실행시켜 나온 md 파일을 써야 R code의 결과물이 정확하게 나옴
+knit을 실행시켜 나온 다른 파일들을 같이 올려야 console 결과가 작동함 전체 R코드 중에 에러가 나는게 있으면, 모든 R 코드의 결과가 안 나옴
