@@ -38,6 +38,9 @@ putting double space at the end of line equal to new line
 If you feel 1st solution is dirty you can do [this][1], and use double space  
 [1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this"
 
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 출처는 [위키백과][wiki]입니다.
 [wiki]: http://en.wikipedia.org/wiki/Markdown#Syntax_examples "위키백과 Markdown 항목"
 
