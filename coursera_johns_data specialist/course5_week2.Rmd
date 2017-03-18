@@ -54,9 +54,9 @@ If you feel 1st solution is dirty you can do [this][1]
 ### slide4. R markdown demonstration
 1. R code
 ```{r}
-# you can see the R code that I wrote, and outputs
+# you can see the R code that I wrote, and Console outputs
 library(datasets)
-#data(airquality)
+data(airquality)
 summary(airquality)
 pairs(airquality)
 ```
