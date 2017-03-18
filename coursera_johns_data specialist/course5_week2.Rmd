@@ -56,6 +56,7 @@ If you feel 1st solution is dirty you can do [this][1]
 ```{r}
 # you can see the R code that I wrote, and outputs
 library(dataset)
+data(airquality)
 summary(airquality)
 pairs(airquality)
 ```
@@ -67,7 +68,7 @@ plot(pressure)
 ```
 
 
-?data
+
 
 
 
