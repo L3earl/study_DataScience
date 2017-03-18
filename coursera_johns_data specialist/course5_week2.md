@@ -56,7 +56,6 @@ putting double space at the end of line equal to new line
 ``` r
 # you can see the R code that I wrote, and Console outputs
 library(datasets)
-data(airquality)
 summary(airquality)
 ```
 
@@ -76,12 +75,6 @@ summary(airquality)
     ##  3rd Qu.:8.000   3rd Qu.:23.0  
     ##  Max.   :9.000   Max.   :31.0  
     ## 
-
-``` r
-pairs(airquality)
-```
-
-![](course5_week2_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
 you can add settings in {r}
 
