@@ -36,7 +36,7 @@ putting double space at the end of line equal to new line
 
 [link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/)
 If you feel 1st solution is dirty you can do [this][1], and use double space  
-[1] : https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/ "this"
+[1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/ "this"
 
 # markdown idea is based on simplify markup languege use
 # 마크다운은 여러 형태로 쉽게 변환 될 수 있는데, HTML은 그 중 하나일 뿐이다
