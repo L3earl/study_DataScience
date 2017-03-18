@@ -3,8 +3,6 @@ title: "Reproducible Research"
 output: github_document
 ---
 
-reproducable research
-======================
 영어로 작성하는 이유는 성민이가 보고, 어색한 문장을 알려주면 영어공부가 될 꺼 같아서임 :)
 
 ### slide1. coding standard in R
@@ -20,6 +18,9 @@ reproducable research
 
 
 ### slide2. markdown
+
+title
+======================
 
 putting double space at the end of line equal to new line  
 *ltalic*  
