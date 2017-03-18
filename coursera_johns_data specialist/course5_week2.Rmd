@@ -35,7 +35,7 @@ putting double space at the end of line equal to new line
 1. as you see. number 1 change to 2,3
 
 [link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/)
-If you feel 1st solution is dirty you can do [this][1] , and use double space  
+If you feel 1st solution is dirty you can do [this][1]  
 [1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this"  
 2번째 방법은 github 형식에서는 작동하지 않는 듯 하다
 [참고](https://guides.github.com/features/mastering-markdown/)
@@ -51,6 +51,23 @@ If you feel 1st solution is dirty you can do [this][1] , and use double space
 - use other packages can make other function like slidfy package?
 
 
+### slide4. R markdown demonstration
+1. R code
+```{r}
+# you can see the R code that I wrote, and outputs
+library(dataset)
+summary(airquality)
+pairs(airquality)
+```
+
+you can add settings in {r}
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+?data
 
 
 
