@@ -1,0 +1,59 @@
+---
+title: "Reproducible Research"
+output: github_document
+---
+
+reproducable research
+======================
+
+### coding standard in R
+1. easy to convert
+- basic text format is easy to use any environment and convert any format, editor
+- ASCII encoding is standard in english culture
+- R studio saves files as text format
+
+2. easy to read
+- indenting is improtant to make readable code, recommend tab space is 8
+- limit code width as 80 column
+- simple function is better to read and trace bug
+
+
+
+# markdown idea is based on simplify markup languege use
+# 마크다운은 여러 형태로 쉽게 변환 될 수 있는데, HTML은 그 중 하나일 뿐이다
+R markdown 은 마크다운과 같은 형식을 가지지만, R 코드가 그 안에 결합된 것 뿐
+
+knitr package convert R code to basic markdown
+markdown package convert markdown to HMTL
+use slidfy package can make HTML slide like coursera
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
