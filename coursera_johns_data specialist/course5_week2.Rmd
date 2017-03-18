@@ -5,10 +5,11 @@ output: github_document
 
 reproducable research
 ======================
+영어로 작성하는 이유는 영어공부를 하기 위함이다
 
-### coding standard in R
+### slide1. coding standard in R
 1. easy to convert
-- basic text format is easy to use any environment and convert any format, editor
+- basic text format is easy to use any environment, convert any format and editor
 - ASCII encoding is standard in english culture
 - R studio saves files as text format
 
@@ -18,6 +19,22 @@ reproducable research
 - simple function is better to read and trace bug
 
 
+### slide2. markdown
+*ltalic*
+**Bold**
+#h1
+##h2
+###h3
+####h4
+#####h5
+- unordered list
+1. ordered list, actualy it just character
+1. but if you inpur number like this, it convert character to ordered list
+1. as you see. number 1 change to 2,3
+
+[link has 2 way] (https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown)
+If you feel avobe solution is dirty you can do [this][1]
+[1] : https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "test"
 
 # markdown idea is based on simplify markup languege use
 # 마크다운은 여러 형태로 쉽게 변환 될 수 있는데, HTML은 그 중 하나일 뿐이다
