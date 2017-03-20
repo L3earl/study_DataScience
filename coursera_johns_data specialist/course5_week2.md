@@ -25,6 +25,7 @@ title
 putting double space at the end of line equal to new line
 
 you can also use br/ tag to make new line<br/> *ltalic*
+
 **Bold**
 
 h1
@@ -45,9 +46,11 @@ h2
 2.  but if you inpur number like this, it convert character to ordered list
 3.  as you see in the code, any number autometically changes sequently
 
-[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do \[this\]\[1\], \[\]뒤에는 double space를 써도 /n이 되지 않음
-\[1\]: <https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown> "this"
-2번째 방법은 github 형식에서는 작동하지 않는 듯 하다 [참고](https://guides.github.com/features/mastering-markdown/)
+[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do [this](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this")
+
+2번째 방법은 github 형식에서는 작동하지 않는 듯 하다
+
+[참고](https://guides.github.com/features/mastering-markdown/)
 
 ### slide3. R markdown
 
