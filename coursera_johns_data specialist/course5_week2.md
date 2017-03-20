@@ -11,14 +11,26 @@ Reproducible Research
 -   ASCII encoding is standard in english culture
 -   R studio saves files as text format
 
-point 2. easy to read - indenting is improtant to make readable code, recommend tab space is 8 - limit code width as 80 column - simple function is better to read and trace bug
+1.  easy to read
 
-### slide2. markdown
+-   indenting is improtant to make readable code, recommend tab space is 8
+-   limit code width as 80 column
+-   simple function is better to read and trace bug
+
+### slide2. markdown syntax
 
 title
 =====
 
-putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br/>* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br />
+putting double space at the end of line equal to new line
+you can also use br/ tag to make new line<br/>
+
+*ltalic*
+
+**Bold**
+
+h1
+==
 
 h2
 --
@@ -33,7 +45,7 @@ h2
 
 1.  ordered list, actualy it just character
 2.  but if you inpur number like this, it convert character to ordered list
-3.  as you see. number 1 change to 2,3
+3.  as you see in the code, any number autometically changes sequently
 
 [link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do \[this\]\[1\], \[\]뒤에는 double space를 써도 /n이 되지 않음
 \[1\]: <https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown> "this"
