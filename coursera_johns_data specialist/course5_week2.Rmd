@@ -49,6 +49,7 @@ If you feel 1st solution is dirty you can do [this][1]
 ### the weired thing  
 
 > some functions does not work such as new line(doble space), link.  
+
 > If this happens, put one empty line after new line  
 
 

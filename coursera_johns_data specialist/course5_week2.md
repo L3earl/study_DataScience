@@ -51,6 +51,7 @@ h2
 ### the weired thing
 
 > some functions does not work such as new line(doble space), link.
+
 > If this happens, put one empty line after new line
 
 ### slide3. R markdown
