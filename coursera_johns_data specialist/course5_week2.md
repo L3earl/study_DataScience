@@ -14,10 +14,7 @@ point 2. easy to read - indenting is improtant to make readable code, recommend 
 title
 =====
 
-putting double space at the end of line equal to new line
-*ltalic*<br /> **Bold**
-\# h1
-\#\# h2
+putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br />* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br /> \#\# h2
 \#\#\# h3
 \#\#\#\# h4
 \#\#\#\#\# h5

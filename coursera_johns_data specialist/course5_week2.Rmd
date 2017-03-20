@@ -22,10 +22,11 @@ point 2. easy to read
 title
 ======================
 
-putting double space at the end of line equal to new line   
+putting double space at the end of line equal to new line<br />
+but it does not work in github...so I use *<br />* tag<br />
 *ltalic*<br />
-**Bold**    
-# h1  
+**Bold**<br />
+#h1<br />
 ## h2  
 ### h3  
 #### h4  
