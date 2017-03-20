@@ -1,6 +1,7 @@
 Reproducible Research
 ================
 
+<p>
 영어로 작성하는 이유는 성민이가 보고, 어색한 문장을 알려주면 영어공부가 될 꺼 같아서임 :)
 
 ### slide1. coding standard in R
@@ -14,18 +15,10 @@ point 2. easy to read - indenting is improtant to make readable code, recommend 
 title
 =====
 
-putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br/>* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br />
-<p>
-h2
---
+putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br/>* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br /> \#\# h2 \#\#\# h3
+\#\#\#\# h4
+\#\#\#\#\# h5
 
-### h3
-
-#### h4
-
-##### h5
-
-</p>
 -   unordered list, list formats dose not need double space
 
 1.  ordered list, actualy it just character
@@ -84,3 +77,4 @@ you can add settings in {r}
 github document 형식으로 테스트 해 본 결과, Rmd 코드에서 knit을 실행시켜 나온 md 파일을 써야 R code의 결과물이 정확하게 나옴
 knit을 실행시켜 나온 다른 파일들을 같이 올려야 console 결과가 작동함
 전체 R코드 중에 에러가 나는게 있으면, 모든 R 코드의 결과가 안 나옴
+</P>
