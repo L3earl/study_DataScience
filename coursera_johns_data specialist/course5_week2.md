@@ -1,15 +1,15 @@
 Reproducible Research
 ================
 
-<p>
 영어로 작성하는 이유는 성민이가 보고, 어색한 문장을 알려주면 영어공부가 될 꺼 같아서임 :)
 
 ### slide1. coding standard in R
 
+<p>
 point 1. easy to convert - basic text format is easy to use any environment, convert any format and editor - ASCII encoding is standard in english culture - R studio saves files as text format
 
 point 2. easy to read - indenting is improtant to make readable code, recommend tab space is 8 - limit code width as 80 column - simple function is better to read and trace bug
-
+</P>
 ### slide2. markdown
 
 title
