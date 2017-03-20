@@ -1,0 +1,45 @@
+install.packages("swirl")
+packageVersion('swirl')
+library(swirl)
+
+install_from_swirl("R Programming")
+
+swirl()
+
+### 몰랐던 내용 정리
+
+# 모든 object는 여러 속성을 가진다. print를 골라서 하는 것뿐이다. 예를 들어, num도 class변수, 데이터 등을 기본으로 가지고 있다
+# array 와 vector 의 차이는 class형을 여러개 할 수 있는가? 한개만 가능한가? 의 차이
+# factor는 범주형 데이터를 표현하는 형태로, 데이터를 전처리/시각화할 때 좋고, lm같은 특정 분류 함수에서 요구하기도 한다
+# data.frame은 리스트들을 col bind 한 형태라고 함. 그래서 서로 다른 class가 올 수 있음
+
+## NA, NaN, Null, Inf의 차이
+# NA는 값이 있지만, 무슨 값인지 모르는 것을 뜻함. 값이 있기 때문에 class 속성이 있다. NA라고 다 같은 NA가 아니라 class가 다를 수 있다는 것
+# NaN은 수학적으로 정의되지 않는 값이다. 0/0 같은 것, NA 의 한 형태로 취급된다. is.na가능, NA는 is.NaN에서 카운트되지 않는다
+# Null 은 값이 없는 것, 0도 의미를 같기 때문에, 0이 될 수도 없다
+##
+
+# []는 원본의 class를 유지한다
+# [[]] 는 원본의 class를 유지하지 않고 가져옴
+
+# 숫자를 logical 형태로 바꾸면 0 이외에는 다 TRUE가 됨
+# complex class는 1+2i의 형태이다. 아직 어떻게 쓰이는지는 모름
+$
+  source()
+as.complex()
+dget()
+gzfile()
+
+
+xx <- list(foo = 1:4)
+xx$foo
+xx[1]
+
+xx[[1]]
+
+!is.na()
+
+
+good <- complete.cases(airquality)
+airquality[good, ][1:6,]
+
