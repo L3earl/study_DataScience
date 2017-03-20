@@ -5,17 +5,9 @@ Reproducible Research
 
 ### slide1. coding standard in R
 
-1.  easy to convert
+point 1. easy to convert - basic text format is easy to use any environment, convert any format and editor - ASCII encoding is standard in english culture - R studio saves files as text format
 
--   basic text format is easy to use any environment, convert any format and editor
--   ASCII encoding is standard in english culture
--   R studio saves files as text format
-
-1.  easy to read
-
--   indenting is improtant to make readable code, recommend tab space is 8
--   limit code width as 80 column
--   simple function is better to read and trace bug
+point 2. easy to read - indenting is improtant to make readable code, recommend tab space is 8 - limit code width as 80 column - simple function is better to read and trace bug
 
 ### slide2. markdown
 
@@ -80,5 +72,7 @@ you can add settings in {r}
 
 ![](course5_week2_files/figure-markdown_github/pressure-1.png)
 
-주의할 점 3가지 github document 형식으로 테스트 해 본 결과, Rmd 코드에서 knit을 실행시켜 나온 md 파일을 써야 R code의 결과물이 정확하게 나옴
-knit을 실행시켜 나온 다른 파일들을 같이 올려야 console 결과가 작동함 전체 R코드 중에 에러가 나는게 있으면, 모든 R 코드의 결과가 안 나옴
+주의할 점 3가지
+github document 형식으로 테스트 해 본 결과, Rmd 코드에서 knit을 실행시켜 나온 md 파일을 써야 R code의 결과물이 정확하게 나옴
+knit을 실행시켜 나온 다른 파일들을 같이 올려야 console 결과가 작동함
+전체 R코드 중에 에러가 나는게 있으면, 모든 R 코드의 결과가 안 나옴
