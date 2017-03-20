@@ -14,11 +14,23 @@ point 2. easy to read - indenting is improtant to make readable code, recommend 
 title
 =====
 
-putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br />* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br /> \#\# h2
-\#\#\# h3
-\#\#\#\# h4
-\#\#\#\#\# h5
-- unordered list, list formats dose not need double space 1. ordered list, actualy it just character 1. but if you inpur number like this, it convert character to ordered list 1. as you see. number 1 change to 2,3
+putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br/>* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br />
+<p>
+h2
+--
+
+### h3
+
+#### h4
+
+##### h5
+
+</p>
+-   unordered list, list formats dose not need double space
+
+1.  ordered list, actualy it just character
+2.  but if you inpur number like this, it convert character to ordered list
+3.  as you see. number 1 change to 2,3
 
 [link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do \[this\]\[1\], \[\]뒤에는 double space를 써도 /n이 되지 않음
 \[1\]: <https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown> "this"

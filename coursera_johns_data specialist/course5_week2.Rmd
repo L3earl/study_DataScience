@@ -23,14 +23,16 @@ title
 ======================
 
 putting double space at the end of line equal to new line<br />
-but it does not work in github...so I use *<br />* tag<br />
+but it does not work in github...so I use *<br/>* tag<br />
 *ltalic*<br />
 **Bold**<br />
 #h1<br />
-## h2  
+<p>
+## h2
 ### h3  
 #### h4  
 ##### h5  
+</p>
 - unordered list, list formats dose not need double space
 1. ordered list, actualy it just character
 1. but if you inpur number like this, it convert character to ordered list
