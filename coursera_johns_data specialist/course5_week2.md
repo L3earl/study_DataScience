@@ -5,19 +5,29 @@ Reproducible Research
 
 ### slide1. coding standard in R
 
-<p>
-point 1. easy to convert - basic text format is easy to use any environment, convert any format and editor - ASCII encoding is standard in english culture - R studio saves files as text format
+1.  easy to convert
+
+-   basic text format is easy to use any environment, convert any format and editor
+-   ASCII encoding is standard in english culture
+-   R studio saves files as text format
 
 point 2. easy to read - indenting is improtant to make readable code, recommend tab space is 8 - limit code width as 80 column - simple function is better to read and trace bug
-</P>
+
 ### slide2. markdown
 
 title
 =====
 
-putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br/>* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br /> \#\# h2 \#\#\# h3
-\#\#\#\# h4
-\#\#\#\#\# h5
+putting double space at the end of line equal to new line<br /> but it does not work in github...so I use *<br/>* tag<br /> *ltalic*<br /> **Bold**<br /> \#h1<br />
+
+h2
+--
+
+### h3
+
+#### h4
+
+##### h5
 
 -   unordered list, list formats dose not need double space
 
