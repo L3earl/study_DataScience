@@ -23,7 +23,9 @@ title
 =====
 
 putting double space at the end of line equal to new line
-you can also use br/ tag to make new line<br/> *ltalic* **Bold**
+
+you can also use br/ tag to make new line<br/> *ltalic*
+**Bold**
 
 h1
 ==
