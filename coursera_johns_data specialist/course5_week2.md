@@ -15,8 +15,7 @@ title
 =====
 
 putting double space at the end of line equal to new line
-*ltalic*
-**Bold**
+*ltalic* <br /> **Bold**
 \# h1
 \#\# h2
 \#\#\# h3
