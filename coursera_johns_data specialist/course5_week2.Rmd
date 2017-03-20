@@ -30,7 +30,7 @@ you can also use br/ tag to make new line<br/>
 
 **Bold**  
 
-#h1  
+# h1  
 ## h2  
 ### h3  
 #### h4  
@@ -69,12 +69,15 @@ If you feel 1st solution is dirty you can do [this][1]
 # you can see the R code that I wrote, and Console outputs
 library(datasets)
 summary(airquality)
+x <- 22
+print(x)
 ```
 
 you can add settings in {r}
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
+print(x)
 ```
 
 ### 주의할 점 3가지  

@@ -92,9 +92,18 @@ summary(airquality)
     ##  Max.   :9.000   Max.   :31.0  
     ## 
 
+``` r
+x <- 22
+print(x)
+```
+
+    ## [1] 22
+
 you can add settings in {r}
 
 ![](course5_week2_files/figure-markdown_github/pressure-1.png)
+
+    ## [1] 22
 
 ### 주의할 점 3가지
 
