@@ -46,11 +46,11 @@ h2
 2.  but if you inpur number like this, it convert character to ordered list
 3.  as you see in the code, any number autometically changes sequently
 
-[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do [this](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this")
+[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do [this](https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D "한국어 설명")
 
-### the weired thing
+#### the weired thing
 
-> some functions does not work in github document such as new line(doble space), link.<br/> If this happens, put one empty line after new line
+> 1st. some functions does not work in github document such as new line(doble space), link.<br/> If this happens, put one empty line after new line<br/> 2nd. every list format number is changes ordered list, so it is hard to start more than 1
 
 ### slide3. R markdown
 
@@ -92,21 +92,19 @@ summary(airquality)
     ##  Max.   :9.000   Max.   :31.0  
     ## 
 
-``` r
-x <- 22
-print(x)
-```
-
-    ## [1] 22
-
 you can add settings in {r}
 
 ![](course5_week2_files/figure-markdown_github/pressure-1.png)
 
-    ## [1] 22
+#### for reading oter platform like web, github
 
-### 주의할 점 3가지
+-   need to convert .Rmd to .md in the Rstudio using knit function
+-   need to upload every output such as graph, img
+-   If some of R code make error than all R code do not make result
 
--   github document 형식으로 테스트 해 본 결과, Rmd 코드에서 knit을 실행시켜 나온 md 파일을 써야 R code의 결과물이 정확하게 나옴
--   knit을 실행시켜 나온 다른 파일들을 같이 올려야 console 결과가 작동함
--   전체 R코드 중에 에러가 나는게 있으면, 모든 R 코드의 결과가 안 나옴
+### slide5. literate statistical programming with knitr
+
+1.  what is literate statistical programming?
+
+-   [literate programming](https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D "한국어 설명") is a method to make code easy to read when programming
+-

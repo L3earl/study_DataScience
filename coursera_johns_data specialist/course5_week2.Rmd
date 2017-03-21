@@ -46,10 +46,11 @@ If you feel 1st solution is dirty you can do [this][1]
 
 [1]: https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this"  
 
-### the weired thing  
+#### the weired thing  
 
-> some functions does not work in github document such as new line(doble space), link.<br/>
-> If this happens, put one empty line after new line  
+> 1st. some functions does not work in github document such as new line(doble space), link.<br/>
+> If this happens, put one empty line after new line<br/>
+> 2nd. every list format number is changes ordered list, so it is hard to start more than 1
 
 
 ### slide3. R markdown
@@ -69,18 +70,34 @@ If you feel 1st solution is dirty you can do [this][1]
 # you can see the R code that I wrote, and Console outputs
 library(datasets)
 summary(airquality)
-x <- 22
-print(x)
 ```
 
 you can add settings in {r}
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
-print(x)
 ```
 
-### 주의할 점 3가지  
-- github document 형식으로 테스트 해 본 결과, Rmd 코드에서 knit을 실행시켜 나온 md 파일을 써야 R code의 결과물이 정확하게 나옴  
-- knit을 실행시켜 나온 다른 파일들을 같이 올려야 console 결과가 작동함  
-- 전체 R코드 중에 에러가 나는게 있으면, 모든 R 코드의 결과가 안 나옴  
+#### for reading oter platform like web, github
+- need to convert .Rmd to .md in the Rstudio using knit function
+- need to upload every output such as graph, img
+- If some of R code make error than all R code do not make result
+
+
+### slide5. literate statistical programming with knitr (part1)
+
+1. what is literate statistical programming?
+- [literate programming][1] is a method to make code readable to both human and machine when programming
+- make one code file mixed with documentation and programming language
+- knitr support a variety of documentation languages
+[1]: https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D "한국어 설명"
+
+2. how to make work reproducible?
+- do literate programming at the begining of the project
+- keep track data manupulation so you can know how you got there
+- do not save output such as temp data. raw data + preprocessing code is better than clean data set
+- save data in non-proprietary formats
+
+3. pros
+
+4. cons
