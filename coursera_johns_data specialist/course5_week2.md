@@ -46,7 +46,7 @@ h2
 2.  but if you inpur number like this, it convert character to ordered list
 3.  as you see in the code, any number autometically changes sequently
 
-[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do [this](https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D "한국어 설명")
+[link has 2 way](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown/) If you feel 1st solution is dirty you can do [this](https://www.coursera.org/learn/reproducible-research/lecture/7TTqT/markdown "this")
 
 #### the weired thing
 
@@ -96,6 +96,8 @@ you can add settings in {r}
 
 ![](course5_week2_files/figure-markdown_github/pressure-1.png)
 
+[want more information?](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf "cheat sheet")
+
 #### for reading oter platform like web, github
 
 -   need to convert .Rmd to .md in the Rstudio using knit function
@@ -106,5 +108,72 @@ you can add settings in {r}
 
 1.  what is literate statistical programming?
 
--   [literate programming](https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D "한국어 설명") is a method to make code easy to read when programming
--
+-   [literate programming](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf "cheat sheet") is a method to make code readable to both human and machine when programming
+-   make one code file mixed with documentation and programming language
+-   knitr support a variety of documentation languages [2](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf "cheat sheet"): <https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D> "한국어 설명"
+
+1.  how to make work reproducible?
+
+-   do literate programming at the begining of the project
+-   keep track data manupulation so you can know how you got there
+-   do not save output such as temp data. raw data + preprocessing code is better than clean data set
+-   save data in non-proprietary formats
+
+1.  pros
+
+-   explanation and coding in the same time force you more logicaly
+-   data is automaticaly updated reflect external changes
+
+1.  cons
+
+-   the more complex analysis the more difficult to edit document
+-   slow down analysis process
+
+### slide6. what is knitr?
+
+1.  introduce
+
+-   knitr support general languages such as Latex, markdown, HTML?
+-   (ommited)
+
+1.  what is markdown?
+
+-   simple version of markup language
+-   every information is \[here\]\[3\] \[3\]:<http://daringfireball.net/projects/markdown/basics> "markdown basic by john gruber"
+
+1.  pros
+
+-   live document[1] is easy to make regular document like report
+-   good for short/medium length anaysis
+-   good for data preprocessing because all step would be saved?
+
+1.  cons
+
+-   long process
+-   complex or time consuming computations
+-   when need precise format
+
+### slide7. My first knitr documents
+
+(ommited)
+
+### slide8. processing of knitr documents
+
+1.  diverse method to use r code chunk
+
+-   give name {r nameHere}
+-   hide code {r, echo = FALSE}
+-   hide console result {r, results = "hide"}
+-   inline text computation {r} x &lt;- 3 , use objects in the text like this \`r x?
+-   adjust figure hight {r, fig.hight = 4}
+-   can make table with xtable package
+-   set global option {r} opts\_chunk$set(echo = F, result = "hide")
+
+1.  cashing code chnuk result
+
+-   cashing option(cache = TRUE)
+-   store output on the disk, so same process be faster when re-run the code
+-   it does not check data or external changes, so you need to re-run the cashing code
+-   be careful to use cashe. it is useful but dangerous
+
+[1] calculate data, code when it executed (why this is not work?)

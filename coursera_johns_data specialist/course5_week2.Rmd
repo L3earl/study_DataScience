@@ -66,7 +66,7 @@ If you feel 1st solution is dirty you can do [this][1]
 
 ### slide4. R markdown demonstration
 1. R code
-```{r}
+```{r nameOfCodeChunk}
 # you can see the R code that I wrote, and Console outputs
 library(datasets)
 summary(airquality)
@@ -78,19 +78,23 @@ you can add settings in {r}
 plot(pressure)
 ```
 
+[want more information?][2]  
+
+[2]: https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf "cheat sheet"
+
 #### for reading oter platform like web, github
 - need to convert .Rmd to .md in the Rstudio using knit function
 - need to upload every output such as graph, img
 - If some of R code make error than all R code do not make result
 
 
-### slide5. literate statistical programming with knitr (part1)
+### slide5. literate statistical programming with knitr 
 
 1. what is literate statistical programming?
-- [literate programming][1] is a method to make code readable to both human and machine when programming
+- [literate programming][2] is a method to make code readable to both human and machine when programming
 - make one code file mixed with documentation and programming language
 - knitr support a variety of documentation languages
-[1]: https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D "한국어 설명"
+[2]: https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%95%99%EC%A0%81_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D "한국어 설명"
 
 2. how to make work reproducible?
 - do literate programming at the begining of the project
@@ -99,5 +103,51 @@ plot(pressure)
 - save data in non-proprietary formats
 
 3. pros
+- explanation and coding in the same time force you more logicaly
+- data is automaticaly updated reflect external changes
 
 4. cons
+- the more complex analysis the more difficult to edit document
+- slow down analysis process
+
+### slide6. what is knitr?
+
+1. introduce
+- knitr support general languages such as Latex, markdown, HTML?
+- (ommited)
+
+2. what is markdown?
+- simple version of markup language
+- every information is [here][3]
+[3]:http://daringfireball.net/projects/markdown/basics "markdown basic by john gruber"
+
+3. pros
+- live document[^1] is easy to make regular document like report
+- good for short/medium length anaysis
+- good for data preprocessing because all step would be saved?
+
+[^1]: calculate data, code when it executed (why this is not work?)
+
+4. cons
+- long process
+- complex or time consuming computations
+- when need precise format
+
+### slide7. My first knitr documents
+(ommited)
+
+### slide8. processing of knitr documents
+1. diverse method to use r code chunk
+- give name {r nameHere}
+- hide code {r, echo = FALSE}
+- hide console result {r, results = "hide"}
+- inline text computation {r} x <- 3 , use objects in the text like this `r x?
+- adjust figure hight {r, fig.hight = 4}
+- can make table with xtable package 
+- set global option {r} opts_chunk$set(echo = F, result = "hide")
+
+2. cashing code chnuk result
+- cashing option(cache = TRUE)
+- store output on the disk, so same process be faster when re-run the code
+- it does not check data or external changes, so you need to re-run the cashing code
+- be careful to use cashe. it is useful but dangerous
